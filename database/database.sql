@@ -1,14 +1,14 @@
-CREATE DATABASE poems;
+CREATE DATABASE new_poems;
 
-USE poems;
+USE new_poems;
 
-CREATE TABLE poems(
-  name varchar(255) not null,
+CREATE TABLE new_poems(
+  author varchar(255) not null,
   bio varchar(5000) not null,
   email varchar(255) not null,
-  headline varchar(255) not null,
-  text varchar(10000) not null,
-  creationDate datetime not null
+creationDate datetime not null,
+  title varchar(255) not null,
+  verse varchar(8500) not null,
 );
 
-DESC poems;
+DESC new_poems;
