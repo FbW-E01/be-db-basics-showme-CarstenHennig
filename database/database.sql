@@ -2,8 +2,7 @@ CREATE DATABASE poems;
 
 USE poems;
 
-
-CREATE TABLE users(
+CREATE TABLE poems(
   name varchar(255) not null,
   bio varchar(5000) not null,
   email varchar(255) not null,
